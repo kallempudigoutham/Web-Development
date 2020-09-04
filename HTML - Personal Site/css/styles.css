@@ -1,0 +1,45 @@
+/* Tag Selectors */
+
+body {
+  background-color: #EAF6F6;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width : 7%;
+}
+
+h1{
+  color: #66BFBF;
+  font-family: serif;
+}
+
+h3{
+  color: #66BFBF;
+  font-family: sans-serif;
+}
+
+/* class selectors */
+
+.hobbieslist{
+  font-family: cursive;
+}
+
+/* ID selectors */
+
+#hobby{
+  font-family: cursive;
+}
+
+/* Pseudo attributes */
+/* when hovers the font changes */
+h1:hover{
+  font-family: cursive;
+}
+
+.number:hover{
+  font-size: 25px;
+}
