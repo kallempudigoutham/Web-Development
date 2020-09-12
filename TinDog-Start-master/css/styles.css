@@ -27,16 +27,21 @@ p {
   padding: 7% 15%;
 }
 
-/* Title Section */
-
-#title {
+/* Sections */
+.colored-section{
   background-color: #FF4C68;
   color: #fff;
-  text-align: left;
 }
 
-/* Space is important */
+.white-section{
+    background-color: #fff;
+}
+
+/* Title Section */
+
+/* Space is important Hierarchial Selectors */
 #title .container-fluid {
+  text-align: left;
   padding:3% 15% 7%;
 }
 
@@ -75,7 +80,6 @@ p {
 }
 
 #features {
-  background-color: #fff;
   position: relative;
 }
 
@@ -101,7 +105,6 @@ p {
 /* Testimonials Section */
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -141,19 +144,13 @@ p {
 }
 
 /* Call of Action */
-#cta {
-  background-color: #FF4C68;
-  color: #fff;
-}
+
 
 .cta-btn {
   margin-right: 25px;
 }
 
 /* Footer Section */
-#footer {
-  background-color: #fff;
-}
 
 .social-icon {
   margin: 20px 10px;
