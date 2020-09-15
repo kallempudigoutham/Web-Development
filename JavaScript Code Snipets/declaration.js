@@ -7,5 +7,6 @@ let y;
 console.log(y);
 
 // const is used, when a variable cant be assigned.
+// Any attempt of re-assigning a const variable will result in JavaScript runtime error.
 const z = "Abcd";
 console.log(z);
