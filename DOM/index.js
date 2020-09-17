@@ -21,3 +21,24 @@ document.querySelector("a").style.color = "red"; // using the tag name
 
 // Heirarchial selectors
 document.querySelector(".list a").style.color = "red";
+
+
+// Ideally styles are to be applied in styles.css instead of .js file to do it
+
+document.querySelector("button").classList.add("change-text");
+// this adds the class change-text to the button and adds style from styles.class
+
+
+// To change the text .textContent is the correct prperty;
+document.querySelector("h1").innerHTML = "<em> Hello World </em>"; // directly targets tree
+document.querySelector("h1").textContent = "Hello World"; // targets the text inside
+
+
+// Managing attributes
+document.querySelector("a").attributes; // gives all attributes
+
+// getting a particular attribute
+document.querySelector("a").getAttribute("href");
+
+// setting a attributes
+document.querySelector("a").setAttribute("href" , "https://www.bing.com/");
