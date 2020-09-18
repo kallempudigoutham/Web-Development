@@ -5,6 +5,7 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
     var buttonHtml = this.innerHTML;
     makeSound(buttonHtml);
+    buttonAnimation(buttonHtml);
   });
 
 }
@@ -12,11 +13,23 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
 // For Key pressed
 
 document.addEventListener("keydown" , function(event){
-    makeSound(event.key);
+   makeSound(event.key);
+   buttonAnimation(event.key);
 });
 
 
+// function to change Animation of Butoon
 
+function buttonAnimation(key){
+   var activeButton = document.querySelector("." + key);
+   activeButton.classList.add("pressed");
+
+   setTimeout(function(){
+     activeButton.classList.remove("pressed");
+   }, 100);
+}
+
+// function to make sound
 function makeSound(key){
 
   switch(key) {
