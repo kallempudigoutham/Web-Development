@@ -1,0 +1,7 @@
+// To run a java script file
+
+node index.js
+
+// To open node console
+
+node
