@@ -1,0 +1,15 @@
+// To run a java script file
+
+node index.js
+
+// To open node console
+
+node
+
+// Initializing a npm project
+
+npm Init
+
+// Intalling a external module
+
+npm install package_name
